@@ -3,10 +3,17 @@ import Features from './features/Features';
 
 
 
-const Card = ({product}) => {
+const Card = ({product, buyProduct,setBuyProduct, price, setPrice}) => {
     //console.log(product)
+ 
+const [buyStatus, setBuyStatus] = useState(false);
 
-//const [tagType , setTagType] = useState('new');
+const handleBuy = () => {
+    
+    setPrice(price + product.price);
+    setBuyStatus(true);
+    setBuyProduct([...buyProduct, product])
+}
 
     return (
         <div className=" card bg-base-100 shadow-sm ">
@@ -30,7 +37,7 @@ const Card = ({product}) => {
                     
                     
                     <div className="mt-6">
-                    <button className="btn btn-block text-lg text-white rounded-3xl bg-linear-to-r from-[#4F39F6] to-[#9514FA]">Buy Now</button>
+                    <button className="btn btn-block text-lg text-white rounded-3xl bg-linear-to-r from-[#4F39F6] to-[#9514FA]" onClick={handleBuy} disabled={buyStatus === true ? true : false}>{buyStatus === true ? "Added to cart" : "Buy Now"}</button>
                     </div>
                 </div>
             </div> 

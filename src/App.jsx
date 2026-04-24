@@ -1,5 +1,5 @@
 
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 import './App.css'
 import Banner from './banner/Banner'
 import Hero from './hero/Hero'
@@ -13,6 +13,7 @@ const fetchData = async() => {
 
 function App() {
  const productPromise = fetchData();
+ 
 
   return (
     <div>
