@@ -7,12 +7,12 @@ import Main from './hero/main/Main'
 import Navbar from './navbar/Navbar'
 
 const fetchData = async() => {
-    const res = await fetch('../../../public/data.json')
+    const res = await fetch('/public/data.json')
     return res.json();
 }
 
 function App() {
- const productPromise = fetchData;
+ const productPromise = fetchData();
 
   return (
     <div>
