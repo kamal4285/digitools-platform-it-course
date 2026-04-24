@@ -1,15 +1,28 @@
 
+import { Suspense } from 'react'
 import './App.css'
+import Banner from './banner/Banner'
+import Hero from './hero/Hero'
+import Main from './hero/main/Main'
+import Navbar from './navbar/Navbar'
+
+const fetchData = async() => {
+    const res = await fetch('../../../public/data.json')
+    return res.json();
+}
 
 function App() {
- 
+ const productPromise = fetchData;
 
   return (
     <div>
-      <h1>testing</h1>
-      <div className="navbar bg-base-100 shadow-sm">
-  <a className="btn btn-ghost text-xl">daisyUI</a>
-</div>
+      <Navbar></Navbar>
+      <Banner></Banner>
+      <Hero></Hero>
+      {/* <Main></Main> */}
+      <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
+          <Main productPromise={productPromise}></Main>
+      </Suspense>
     </div>
   )
 }

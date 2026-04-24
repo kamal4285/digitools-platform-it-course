@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with AI-powered suggestions.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://i.ibb.co.com/pvRqCBx5/writing-2327400-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website Kit",
+    "description": "Launch your personal portfolio website بسهولة.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Custom domains", "SEO optimized", "Drag & drop builder"],
+    "icon": "https://i.ibb.co.com/hxqD3fY6/portfolio.png"
+  },
+  {
+    "id": 3,
+    "name": "Job Tracker",
+    "description": "Track job applications and interview status easily.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Application tracking", "Interview reminders", "Analytics dashboard"],
+    "icon": "https://i.ibb.co.com/S4fF5K5B/operation.png"
+  },
+  {
+    "id": 4,
+    "name": "AI Cover Letter Generator",
+    "description": "Generate tailored cover letters instantly using AI.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["AI writing", "Multiple formats", "Download options"],
+    "icon": "https://i.ibb.co.com/pvRqCBx5/writing-2327400-1.png"
+  },
+  {
+    "id": 5,
+    "name": "LinkedIn Optimizer",
+    "description": "Improve your LinkedIn profile visibility and reach.",
+    "price": 19.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Profile analysis", "Keyword suggestions", "Growth insights"],
+    "icon": "https://i.ibb.co.com/S4fF5K5B/operation.png"
+  },
+  {
+    "id": 6,
+    "name": "Freelancer Starter Pack",
+    "description": "Everything you need to start freelancing successfully.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Proposal templates", "Client scripts", "Pricing guide"],
+    "icon": "https://i.ibb.co.com/pvRqCBx5/writing-2327400-1.png"
+  },
+  {
+    "id": 7,
+    "name": "Skill Development Hub",
+    "description": "Access courses to upgrade your professional skills.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Video tutorials", "Certificates", "Progress tracking"],
+    "icon": "https://i.ibb.co.com/HDWhX9sW/social-media.png"
+  },
+  {
+    "id": 8,
+    "name": "Interview Prep Toolkit",
+    "description": "Prepare for interviews with real-world questions.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Mock interviews", "Common Q&A", "Expert tips"],
+    "icon": "https://i.ibb.co.com/S4fF5K5B/operation.png"
+  },
+  {
+    "id": 9,
+    "name": "Career Coaching Session",
+    "description": "One-on-one coaching with industry experts.",
+    "price": 99.99,
+    "period": "one-time",
+    "tag": "premium",
+    "tagType": "popular",
+    "features": ["Live sessions", "Personalized advice", "Career roadmap"],
+    "icon": "https://i.ibb.co.com/xtBVNQtn/design-tool.png"
+  },
+  {
+    "id": 10,
+    "name": "Remote Job Finder",
+    "description": "Discover remote job opportunities worldwide.",
+    "price": 5.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Global listings", "Daily updates", "Custom alerts"],
+    "icon": "https://i.ibb.co.com/HDWhX9sW/social-media.png"
+  }
+]
