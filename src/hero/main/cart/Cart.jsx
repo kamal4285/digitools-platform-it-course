@@ -1,4 +1,4 @@
-import React from 'react';
+
 import CartCard from './CartCard';
 
 const Cart = ({products, buyProduct, setBuyProduct, price, setPrice}) => {

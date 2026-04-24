@@ -1,4 +1,4 @@
-import React from 'react';
+
 import banner from '../assets/banner.png'
 import play from '../assets/Play.png'
 import newIcon from '../assets/new.png'

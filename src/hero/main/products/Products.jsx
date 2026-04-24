@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Card from './Card';
 
 const Products = ({products, buyProduct, setBuyProduct, price, setPrice}) => {
