@@ -1,4 +1,5 @@
 
+import { toast } from 'react-toastify';
 import CartCard from './CartCard';
 
 const Cart = ({ buyProduct, setBuyProduct, price, setPrice}) => {
@@ -6,6 +7,7 @@ const Cart = ({ buyProduct, setBuyProduct, price, setPrice}) => {
     //console.log(buyProduct)
 
     const deleteSelectedCart = (product) => {
+        toast.success(`${product.name} is deleted from cart`)
         const filteredProduct = buyProduct.filter(buyProduct => buyProduct.name != product.name)
         //console.log(filteredProduct);
         setBuyProduct(filteredProduct);
@@ -15,6 +17,7 @@ const Cart = ({ buyProduct, setBuyProduct, price, setPrice}) => {
         const filteredProceedCart = buyProduct.filter(buyProduct => buyProduct.name === product.name)
         //console.log(filteredProceedCart)
         setBuyProduct(filteredProceedCart)
+        toast.success('Proceed to checkout for payment')
     }
 
     return (

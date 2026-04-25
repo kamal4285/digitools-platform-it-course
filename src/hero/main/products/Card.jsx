@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Features from './features/Features';
+import { toast } from 'react-toastify';
 
 
 
@@ -13,6 +14,7 @@ const handleBuy = () => {
     setPrice(price + product.price);
     setBuyStatus(true);
     setBuyProduct([...buyProduct, product])
+    toast.success(`${product.name} is added to cart`)
 }
 
     return (

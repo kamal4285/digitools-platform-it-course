@@ -8,9 +8,10 @@ import Navbar from './navbar/Navbar'
 import Steps from './navbar/steps/Steps'
 import PricingOptions from './pricingSection/PricingOptions'
 import Footer from './footer/Footer'
+import { ToastContainer } from 'react-toastify'
 
 const fetchData = async() => {
-    const res = await fetch('/public/data.json')
+    const res = await fetch('/data.json')
     return res.json();
 }
 
@@ -19,7 +20,7 @@ const fetchData = async() => {
 //   return res.json();
 // }
 
-const pricingPromise = fetch('/public/pricingData.json').then(res => res.json());
+const pricingPromise = fetch('/pricingData.json').then(res => res.json());
 
 function App() {
 
@@ -40,6 +41,8 @@ function App() {
       <Steps></Steps>
       <PricingOptions pricingPromise={pricingPromise}></PricingOptions>
       <Footer></Footer>
+
+      <ToastContainer></ToastContainer>
     </div>
   )
 }
