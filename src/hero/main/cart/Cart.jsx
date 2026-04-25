@@ -18,7 +18,7 @@ const Cart = ({ buyProduct, setBuyProduct, price, setPrice}) => {
     }
 
     return (
-        <div className='w-full space-y-5'>
+        <div className=' space-y-5'>
            {buyProduct.length === 0 ?
            <div className='h-400px flex flex-col items-center justify-center'>
                 <h2 className='font-semibold text-xl'>No tools selected yet</h2>
@@ -33,7 +33,7 @@ const Cart = ({ buyProduct, setBuyProduct, price, setPrice}) => {
            <div>
                  <div className='flex justify-between'>
                 <h2>Total</h2>
-                <h1>${price}</h1>
+                <h1 className='text-xl font-bold'>${price}</h1>
             </div>
            <button className='btn btn-block text-lg text-white rounded-3xl bg-linear-to-r from-[#4F39F6] to-[#9514FA]' onClick={handleProceedToCart}>Proceed to checkout</button>
            </div> 

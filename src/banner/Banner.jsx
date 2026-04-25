@@ -5,7 +5,7 @@ import newIcon from '../assets/new.png'
 
 const Banner = () => {
     return (
-       <div className="hero min-h-screen">
+       <div className="hero min-h-screen my-10">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img
                 src={banner}

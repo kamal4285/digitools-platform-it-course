@@ -7,6 +7,7 @@ import Main from './hero/main/Main'
 import Navbar from './navbar/Navbar'
 import Steps from './navbar/steps/Steps'
 import PricingOptions from './pricingSection/PricingOptions'
+import Footer from './footer/Footer'
 
 const fetchData = async() => {
     const res = await fetch('/public/data.json')
@@ -38,6 +39,7 @@ function App() {
       </Suspense>
       <Steps></Steps>
       <PricingOptions pricingPromise={pricingPromise}></PricingOptions>
+      <Footer></Footer>
     </div>
   )
 }
