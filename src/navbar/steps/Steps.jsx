@@ -15,7 +15,7 @@ const Steps = () => {
                         </div>
                        
                         <div className="flex justify-center">
-                            <span className="bg-purple-200 p-4 rounded-full"><img src="/src/assets/user.png" alt="" /></span>
+                            <span className="bg-purple-200 p-4 rounded-full"><img src="https://i.ibb.co.com/MDjZ2nhr/user.png" alt="" /></span>
                         </div>
                         <h2 className="text-2xl font-bold text-center">Create Account</h2>
                         <p className="text-lg text-center text-[#627382]">Sign up for free in seconds. No credit card <br /> required to get started.</p>
@@ -28,7 +28,7 @@ const Steps = () => {
                         </div>
                        
                         <div className="flex justify-center">
-                            <span className="bg-purple-200 p-4 rounded-full"><img src="/src/assets/package.png" alt="" /></span>
+                            <span className="bg-purple-200 p-4 rounded-full"><img src="https://i.ibb.co.com/Rkj9FQkN/package.png" alt="" /></span>
                         </div>
                         <h2 className="text-2xl font-bold text-center">Choose Products</h2>
                         <p className="text-lg text-center text-[#627382]">Browse our catalog and select the tools <br /> that fit your needs.</p>
@@ -41,7 +41,7 @@ const Steps = () => {
                         </div>
                        
                         <div className="flex justify-center">
-                            <span className="bg-purple-200 p-4 rounded-full"><img src="/src/assets/rocket.png" alt="" /></span>
+                            <span className="bg-purple-200 p-4 rounded-full"><img src="https://i.ibb.co.com/0RTXL5LY/rocket.png" alt="" /></span>
                         </div>
                         <h2 className="text-2xl font-bold text-center">Start Creating</h2>
                         <p className="text-lg text-center text-[#627382]">Download and start using your premium <br /> tools immediately.</p>
