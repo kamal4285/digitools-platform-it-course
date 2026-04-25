@@ -8,7 +8,7 @@ const Steps = () => {
                  <h2 className="text-5xl font-bold">Get Started In 3 steps</h2>
                 <p className="text-lg text-[#627382] my-6">Start using premium digital tools in minutes, not hours.</p>
                </div>
-                <div className="grid grid-cols-3 gap-10">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                     <div className="flex flex-col p-7 pb-16 bg-white rounded-2xl space-y-6">
                         <div className="flex justify-end">
                             <span className=" text-white font-semibold bg-linear-to-r from-[#4F39F6] to-[#9514FA] p-3 px-4 rounded-full">01</span>
