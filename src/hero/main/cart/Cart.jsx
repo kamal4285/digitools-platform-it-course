@@ -1,8 +1,8 @@
 
 import CartCard from './CartCard';
 
-const Cart = ({products, buyProduct, setBuyProduct, price, setPrice}) => {
-    console.log(products)
+const Cart = ({ buyProduct, setBuyProduct, price, setPrice}) => {
+    //console.log(products)
     //console.log(buyProduct)
 
     const deleteSelectedCart = (product) => {
@@ -10,6 +10,11 @@ const Cart = ({products, buyProduct, setBuyProduct, price, setPrice}) => {
         //console.log(filteredProduct);
         setBuyProduct(filteredProduct);
         setPrice(price - product.price);
+    }
+    const handleProceedToCart = (product) => {
+        const filteredProceedCart = buyProduct.filter(buyProduct => buyProduct.name === product.name)
+        //console.log(filteredProceedCart)
+        setBuyProduct(filteredProceedCart)
     }
 
     return (
@@ -30,9 +35,9 @@ const Cart = ({products, buyProduct, setBuyProduct, price, setPrice}) => {
                 <h2>Total</h2>
                 <h1>${price}</h1>
             </div>
-           <button className='btn btn-block text-lg text-white rounded-3xl bg-linear-to-r from-[#4F39F6] to-[#9514FA]'>Proceed to checkout</button>
+           <button className='btn btn-block text-lg text-white rounded-3xl bg-linear-to-r from-[#4F39F6] to-[#9514FA]' onClick={handleProceedToCart}>Proceed to checkout</button>
            </div> 
-           : <div className='text-xl text-center'>Thanks</div> }
+           : <div className='text-xl text-center'>Select First</div> }
         </div>
 
     );
